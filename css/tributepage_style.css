@@ -1,0 +1,79 @@
+/* TODO:
+--color, font
+--comment
+ */
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#main, #divtitle, #divwrap, #img-div, #tribute-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#main {
+ min-width: 330px;
+ padding: 30px;
+}
+
+#divtitle, #divwrap {
+  border: 1px black solid;
+  width: 100%;
+  margin: 15px 0;
+}
+
+#title {
+  margin-bottom: 0;
+}
+
+
+#img-div, #tribute-info {
+  border: 1px red solid;
+  width: 100%;
+  padding: 10px;
+}
+
+#tribute-info {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#image, #img-caption {
+  max-width: 100%;
+}
+
+#img-caption {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.tribute-content{
+  margin: 5px 0;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+#tribute-music-list, #tribute-source {
+  align-self: flex-start;
+}
+
+h3 {
+  margin-top: 60px;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+#tribute-source {
+  font-size: 15px;
+  list-style-type: circle;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
