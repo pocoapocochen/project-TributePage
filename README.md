@@ -1,6 +1,6 @@
 # project-TributePage
 * Project topic from: freeCodeCamp - Responsive Web Design Course
-* [Live](https://github.com/pocoapocochen/project-TributePage) version
+* [Live](https://pocoapocochen.github.io/project-TributePage/) version
 
 ## User Story
 * I can ...
