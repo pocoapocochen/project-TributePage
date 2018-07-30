@@ -1,61 +1,83 @@
-/* TODO:
---color, font
---comment
- */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
+* {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+}
 
 html, body {
   margin: 0;
   padding: 0;
+  background: #e6ccb3;
 }
 
+/*set container*/
 #main, #divtitle, #divwrap, #img-div, #tribute-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-sizing: border-box;
 }
 
 #main {
- min-width: 330px;
- padding: 30px;
+ min-width: 20rem;
+ margin: 1.875rem auto;
+ margin-bottom: 0;
 }
 
-#divtitle, #divwrap {
-  border: 1px black solid;
+#divtitle {
+  width: 50%;
+  min-width: 18.75rem;
+  border: 0.1875rem solid #996633;
+}
+
+#divwrap {
+  width: 90%;
+}
+
+#img-div, #tribute-info {
   width: 100%;
-  margin: 15px 0;
+  padding: 0.625rem;
 }
 
+
+/*title part*/
 #title {
   margin-bottom: 0;
 }
 
-
-#img-div, #tribute-info {
-  border: 1px red solid;
-  width: 100%;
-  padding: 10px;
+#divtitle, #tribute-info {
+  border-radius: 0.5rem;
 }
 
-#tribute-info {
-  padding-left: 10%;
-  padding-right: 10%;
-}
 
+/*image part*/
 #image, #img-caption {
   max-width: 100%;
 }
 
+#image {
+  border-radius: 0.5rem;
+}
+
 #img-caption {
-  margin-top: 10px;
+  margin-top: 0.625rem;
   text-align: center;
+  font-size: 0.875rem;
+}
+
+
+/*tribute part*/
+#tribute-info {
+  padding-left: 15%;
+  padding-right: 15%;
+  background: #d9b38c;
 }
 
 .tribute-content{
-  margin: 5px 0;
+  margin: 0.3125rem 0;
   text-align: justify;
-  text-indent: 30px;
+  text-indent: 1.875rem;
 }
 
 #tribute-music-list, #tribute-source {
@@ -63,17 +85,30 @@ html, body {
 }
 
 h3 {
-  margin-top: 60px;
+  margin-top: 2.5rem;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 #tribute-source {
-  font-size: 15px;
+  font-size: 0.9375rem;
   list-style-type: circle;
+}
+
+#tribute-source a:hover {
+  color: #993333;
 }
 
 a {
   color: #000000;
+}
+
+/*other part*/
+#copyright {
+  margin-top: 1.875rem;
+  font-size: 0.75rem;
+}
+
+#copyright a {
   text-decoration: none;
 }
