@@ -1,5 +1,5 @@
 # project-TributePage
-* Project topic from: freeCodeCamp - Responsive Web Design Course 
+* Project topic from: [freeCodeCamp - Responsive Web Design Projects - Build a Tribute Page](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-tribute-page/) 
 * [Live](https://pocoapocochen.github.io/project-TributePage/) version
 
 ## User Story
